@@ -1,17 +1,15 @@
-import Experience from "@/components/Experience";
-import Header from "@/components/Header";
-import Interest from "@/components/Interest";
-import Intro from "@/components/Intro";
-import PortfolioSection from "@/components/PortfolioSection";
+import Experience from "..//components/Experience";
+import Interest from "../components/Interest";
+import Intro from "../components/Intro";
+import PortfolioSection from "../components/PortfolioSection";
 
 export default function Home() {
   return (
     <div className="">
-      <Header />
       <Intro />
       <section className="flex flex-col gap-10">
         <PortfolioSection title="About">
-          <p className="text-gray-400 text-md">
+          <p className="text-zinc-400 text-sm">
             Lifetime Learner, Software Engineer
             <br/>
             Love skateboarding & climbing
