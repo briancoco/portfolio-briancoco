@@ -3,8 +3,10 @@ import React from 'react'
 const PortfolioSection = ({title, children}) => {
   return (
     <div className='flex'>
-      <h1 className='font-bold text-xl w-80 h-20'>{title}</h1>
-      {children}
+      <h1 className='font-bold text-xl w-50 h-20 flex-shrink-0'>{title}</h1>
+      <div className='flex-1'>
+        {children}
+      </div>
     </div>
   )
 }
